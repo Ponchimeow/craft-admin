@@ -23,7 +23,9 @@ const CraftSettingsPanel: React.VFC = () => {
 
   return (
     <div className="px-3 mb-4">
-      {selected && selected.settings && React.createElement(selected.settings)}
+      {selected &&
+        selected.settings &&
+        React.createElement(selected.settings, { color: "red" })}
       {selected && selected.labelName && (
         <Button
           block

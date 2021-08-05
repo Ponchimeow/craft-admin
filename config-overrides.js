@@ -11,7 +11,7 @@ module.exports = override(
   removeModuleScopePlugin(),
   babelInclude([
     path.resolve("src"),
-    path.resolve("node_modules/craft-element/src"),
+    path.resolve("node_modules/lodestar-app-element/src"),
   ]),
   fixBabelImports("import", {
     libraryName: "antd",

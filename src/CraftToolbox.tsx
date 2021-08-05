@@ -1,5 +1,5 @@
 import { useEditor } from "@craftjs/core";
-import CraftButton from "craft-element/src/CraftButton";
+// import CraftButton from "craft-element/src/CraftButton";
 import React from "react";
 import styled from "styled-components";
 
@@ -14,7 +14,7 @@ const CraftToolbox: React.VFC<{
 
   return (
     <div className="px-3 mt-4">
-      <StyledBoxWrapper
+      {/* <StyledBoxWrapper
         className="mb-3"
         ref={(ref) =>
           ref &&
@@ -34,7 +34,7 @@ const CraftToolbox: React.VFC<{
         }
       >
         按鈕
-      </StyledBoxWrapper>
+      </StyledBoxWrapper> */}
     </div>
   );
 };
